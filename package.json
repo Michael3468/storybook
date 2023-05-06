@@ -1,6 +1,7 @@
 {
   "name": "stories",
   "version": "0.0.0",
+  "extends": "../../package.json",
   "description": "storybook components and stories",
   "main": "index.js",
   "scripts": {
