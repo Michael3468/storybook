@@ -1,0 +1,33 @@
+{
+  "name": "stories",
+  "version": "0.0.0",
+  "description": "storybook components and stories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cm": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhiteDevilMan/storybook.git"
+  },
+  "keywords": [
+    "storybook",
+    "stories"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WhiteDevilMan/storybook/issues"
+  },
+  "homepage": "https://github.com/WhiteDevilMan/storybook#readme",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
